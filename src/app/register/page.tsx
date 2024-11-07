@@ -25,7 +25,7 @@ export default function Register() {
   };
 
   return (
-    <div>
+    <div className="container mx-auto pt-6">
       <div>
         <h1>Register</h1>
       </div>
