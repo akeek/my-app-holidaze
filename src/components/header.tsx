@@ -12,12 +12,13 @@ function Nav() {
                     <Link href="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="/contact">Contact</Link>
+                    <Link href="/venue">Venue</Link>
                 </li>
                 <li>
-                    <Link href="/cart" className="text-nowrap flex flex-row gap-2 items-center">
-                        <FontAwesomeIcon icon={faCartShopping} className="h-5 w-5"/><span>{0}</span>
-                    </Link>
+                    <Link href="/login">Login</Link>
+                </li>
+                <li>
+                    <Link href="/register">Register</Link>
                 </li>
             </ul>
         </nav>
@@ -26,9 +27,9 @@ function Nav() {
 
 function Header() {
     return (
-        <header className="grid grid-cols-[1fr_auto] pt-12 px-8 pb-4 shadow-lg">
+        <header className="grid grid-cols-[1fr_auto] pt-4 px-8 pb-4 shadow-lg">
             <h2 className="font-bold text-3xl">
-                <Link href="/" className="navlogo">Daily Depot</Link>
+                <Link href="/" className="text-red-400">Holidaze</Link>
             </h2>
             <Nav/>
         </header>
