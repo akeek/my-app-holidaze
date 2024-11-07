@@ -12,7 +12,7 @@ function Nav() {
                     <Link href="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="/venue">Venue</Link>
+                    <Link href="/venues">Venues</Link>
                 </li>
                 <li>
                     <Link href="/login">Login</Link>
